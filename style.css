@@ -1,0 +1,278 @@
+/*PAGINA PRINCIPAL*/
+.body {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    margin: 2px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+}
+
+.titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    text-decoration: underline;
+}
+
+.login__titulo{
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+}
+.login {
+    text-align: right;
+}
+
+.legend {
+    grid-area: legend;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(168, 103, 241);
+
+}
+
+.img {
+    align-self: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 800px;
+    height: 700px;
+    border: groove rgb(168, 103, 241) 25px;
+    padding: 25px;
+    margin: 0px auto;
+    overflow: auto;
+    object-fit: contain;
+}
+
+.webs {
+    text-align: center;
+    background-color: rgb(168, 103, 241);
+    font-size: 20px;
+}
+
+.disclaimer {
+    background-color: red;
+    font-size: 35px;
+    grid-area: footer;
+    text-align: center;
+}
+
+
+/*PAGINA DE MODS*/
+.bodymod {
+    background-color: aqua;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+        "titulo2 titulo2"
+        "aegis aegistext"
+        "dragtext drag"
+        "jelly jellytext"
+        "back2 back2"
+        "footer2 footer2";
+}
+    img{
+        width: 500px; height: 500px;
+    }
+
+    @media screen and (max-width:768px){
+        .bodymod{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "titulo"
+            "aegis"
+            "aegistext"
+            "drag"
+            "dragtext"
+            "jelly"
+            "jellytext"
+            "back2"
+            "footer2";
+            font-size: 20px;
+    }
+
+}
+
+.titulo2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    text-decoration: underline;
+    grid-area: titulo2;
+}
+.aegis {
+    grid-area: aegis;
+
+}
+
+.aegis__text {
+    grid-area: aegistext;
+}
+
+.drag {
+    grid-area: drag;
+}
+
+.drag__text {
+    grid-area: dragtext;
+}
+
+.jelly {
+    grid-area: jelly;
+}
+
+.jelly__text {
+    grid-area: jellytext;
+}
+
+.back2{
+    grid-area: back2;
+}
+.disclaimer2 {
+    background-color: red;
+    font-size: 35px;
+    grid-area: footer2;
+    text-align: center;
+}
+/* PAGINA DE ATO*/
+.ato {
+    text-align: center;
+    background-color: aqua;
+}
+.titulo3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    text-decoration: underline;
+}
+p {
+    font-family: 'League Gothic', cursive;
+    font-size: 30px;
+}
+.disclaimer3{
+    background-color: red;
+    font-size: 35px;
+    text-align: center;
+}
+
+/*PAGINA ELIQUID*/
+.eliquid {
+    background-color: aqua;
+}
+.titulo4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    text-decoration: underline;
+}
+
+.titulo__intro {
+    text-align: left;
+}
+
+.table {
+    font-size: 30px;
+    font-family: 'League Gothic', cursive;
+    text-align: center;
+}
+
+.backliquid {
+    text-align: center;
+}
+
+.disclaimer4{
+    background-color: red;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/*PAGINA COILS*/
+
+.coils {
+    background-color: aqua;
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "titulo5 titulo5"
+    "kanthal nichrome"
+    "nickel ss"
+    "back5 back5"
+    "disclaimer5 disclaimer5";
+}
+
+@media screen and (max-width:768px){
+    .coils{
+        display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "titulo5"
+            "kanthal"
+            "nichrome"
+            "nickel"
+            "ss"
+            "backcoil"
+            "disclaimer5"
+    }
+
+}
+    
+
+.titulo5{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    text-decoration: underline;
+    grid-area: titulo5;
+}
+
+.kanthal{
+    grid-area: kanthal;
+    font-size: 30px;
+    font-family: 'League Gothic', cursive;
+}
+.nichrome{
+    grid-area: nichrome;
+    font-size: 30px;
+    font-family: 'League Gothic', cursive;
+}
+.nickel{
+    grid-area: nickel;
+    font-size: 30px;
+    font-family: 'League Gothic', cursive;
+}
+.ss{
+    grid-area: ss;
+    font-size: 30px;
+    font-family: 'League Gothic', cursive;
+}
+.back5{
+    grid-area: back5;
+    text-align: center;
+    font-size: 25px;
+}
+.disclaimer5{
+    grid-area: disclaimer5 ;
+    background-color: red;
+    font-size: 35px;
+    
+}
