@@ -1,6 +1,6 @@
 /*PAGINA PRINCIPAL*/
 .body {
-    background-color: aqua;
+    background-image: linear-gradient(lightblue , pink);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
@@ -66,7 +66,7 @@
 
 /*PAGINA DE MODS*/
 .bodymod {
-    background-color: aqua;
+    background-image: linear-gradient(lightblue , pink);
     align-items: center;
     font-size: 30px;
     text-align: center;
