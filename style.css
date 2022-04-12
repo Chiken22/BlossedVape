@@ -36,7 +36,9 @@
     background-color: rgb(168, 103, 241);
 
 }
-
+a:hover{
+   color: lightblue; 
+}
 .img {
     align-self: center;
     text-align: center;
@@ -49,11 +51,24 @@
     overflow: auto;
     object-fit: contain;
 }
+.indeximage{
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+.indeximage:hover{
+    filter: none;
+    transform: scale(1.1);
+}
 
 .webs {
     text-align: center;
     background-color: rgb(168, 103, 241);
     font-size: 20px;
+    height: 25px;
+    transition: all 2s;
+}
+.webs:hover{
+    height: 50px;
 }
 
 .disclaimer {
@@ -114,7 +129,12 @@
 }
 .aegis {
     grid-area: aegis;
-
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+.aegis:hover{
+    filter: none;
+    transform: scale(1.1);
 }
 
 .aegis__text {
@@ -123,6 +143,13 @@
 
 .drag {
     grid-area: drag;
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+
+.drag:hover{
+    filter: none;
+    transform: scale(1.1);
 }
 
 .drag__text {
@@ -131,6 +158,13 @@
 
 .jelly {
     grid-area: jelly;
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+
+.jelly:hover{
+    filter: none;
+    transform: scale(1.1);
 }
 
 .jelly__text {
@@ -149,7 +183,7 @@
 /* PAGINA DE ATO*/
 .ato {
     text-align: center;
-    background-color: aqua;
+    background-image: linear-gradient(lightblue , pink);
 }
 .titulo3{
     color: rgb(0, 0, 0);
@@ -161,6 +195,32 @@
 p {
     font-family: 'League Gothic', cursive;
     font-size: 30px;
+}
+.zeus{
+    transition: all 2s;
+    filter: grayscale(100%);
+}
+.zeus:hover{
+    filter: none;
+    transform: scale(1.1);
+    
+
+}
+.fata{
+    transition: all 2s;
+    filter: grayscale(100%);
+}
+.fata:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+.fat{
+    transition: all 2s;
+    filter: grayscale(100%);
+}
+.fat:hover{
+    filter: none;
+    transform: scale(1.1);
 }
 .disclaimer3{
     background-color: red;
@@ -204,7 +264,7 @@ p {
 /*PAGINA COILS*/
 
 .coils {
-    background-color: aqua;
+    background-image: linear-gradient(lightblue , pink);
     display: flex;
     flex-flow: column;
     align-content: space-between;
@@ -265,6 +325,46 @@ p {
     font-size: 30px;
     font-family: 'League Gothic', cursive;
 }
+
+.nichrome1{
+filter: grayscale(100%);
+transition: all 2s;
+}
+.nichrome1:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+.kanthal1{
+    filter: grayscale(100%);
+    transition: all 2s;
+    transform: translate(0px , 113px);
+}
+.kanthal1:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+.nickel1{
+    filter: grayscale(100%);
+    transition: all 2s;
+    transform: translate(0px , 10px);
+}
+.nickel1:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+.ss1{
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+.ss1:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+
+
+
+
+
 .back5{
     grid-area: back5;
     text-align: center;
