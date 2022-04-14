@@ -7,55 +7,67 @@
     <meta name="viewport" content="" width=device-width, initial-scale="1.0">
     <title>Blossed</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Palette+Mosaic&display=swap"
         rel="stylesheet">
 </head>
 
 <body class="body">
-    <header class="login">
-        <h1 class="titulo">Blossed NEWS</h1>
+    <div class="container-fluid">
+        <header class="row login">
+            <h1 class=" col-lg-10 col-md-12 col-sm-12 titulo">Blossed NEWS</h1>
+            <div class="col-lg-2 col-md-6 col-sm-6 mb-3 form-control-sm">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </header>
+    </div>
 
-
-        <h2 class="login__titulo">log-In
-
-            <input type="text" placeholder="Username" name="Name">
-
-            <input type="text" placeholder="Email">
-
-            <input type="password" placeholder="Password">
-            <br>
-            <input id="checkbox" type="checkbox"> Accept Terms
-
-            <input id="checkbox" type="checkbox"> Accept receive Emails
-
-            <input type="Submit" value="Accept">
-
-            <input type="Reset" value="Delete All">
-
-        </h2>
-
-    </header>
-    <main class="mainindex">
-        <h3 class="legend">
-            <hr width="80%" size="10px" color="black" />
-            <legend class="legend">Brand New Products</legend>
-            <hr width="80%" size="10px" color="black" />
-            <a class="legend__page" href="Mods.html">| Mods |</a>
-            <a class="legend__page" href="Atomizer.html">| Atomizer |</a>
-            <a class="legend__page" href="h2e-liquid.html">| E-liquid |</a>
-            <a class="legend__page" href="HandMadeCoils.html">| Hand Made Coils |</a>
-            <hr width="80%" size="10px" color="black" />
+    <main class="row mainindex">
+        <h3 class="col-lg-10 col-md-10 col-sm-10 legend">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Brand New Products!</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="Mods.html">| Mods |</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Atomizer.html">| Atomizer |</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="h2e-liquid.html">| E-liquid |</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="HandMadeCoils.html">| Coils! |</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
         </h3>
         <br>
-        <h4 class="img">
+        <h4 class="col-lg-6 col-md-6 col-sm-6 img">
             <div class="imagenes3">
                 <img class="indeximage" src="../multimedia/Mod ultroner.jpg"
                     alt="Mod electronico de la compañía Asmodus">
@@ -84,7 +96,7 @@
                     This allows most of the air to hit the center of the coils.</p>
             </div>
         </h4>
-        <h5 class="webs">
+        <h5 class="col-lg-12 col-md-12 col-sm-12 webs">
             <Div class="webs">
                 <a href="https://www.asmodus.com" target:_blank>Asmodus Official Website |</a>
                 <a href="https://www.voopoo.com" target:_blank>Voopoo Official Website |</a>
@@ -96,9 +108,9 @@
         </h5>
     </main>
 
-    <footer class="disclaimer">
+    <footer class="row disclaimer">
 
-        <p class="disclaimer__parrafo">
+        <p class="col-lg-8 col-md-8 col-sm-8 disclaimer__parrafo">
             DISCLAIMER:
             This page was made with the porpouse of inform about the new products on sale from the best Brands
             <br>

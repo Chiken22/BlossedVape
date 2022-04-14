@@ -1,0 +1,93 @@
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../multimedia/zeusx.jpg" class="d-block w-100 zeus" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Zeus X RTA</h5>
+          <p>GeekVape</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../multimedia/0e3173cdc071762f25c2962179ab6eb9c7c6054a.jpg" class="d-block w-100 fata" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fatality RTA </h5>
+          <p>QP Design</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../multimedia/fat.jpg" class="d-block w-100 fat" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fat Rabbit RTA</h5>
+          <p>HellVape</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h1 class="titulo3">TOP SELLERS</h1>
+    <div>
+        <img class="zeus" src="../multimedia/zeusx.jpg" width="500" height="500" alt="">
+        <p> Zeus X RTA (Geekvappe) </p>
+        <br>
+        <img class="fata" src="../multimedia/0e3173cdc071762f25c2962179ab6eb9c7c6054a.jpg" width="500" height="500"
+            alt="">
+        <p> Fatality RTA (QP Desing)</p>
+        <br>
+        <img class="fat" src="../multimedia/fat.jpg" width="500" height="500" alt="" title="">
+        <p>Fat Rabbit RTA (Hellvape)</p>
+
+        <h2>
+            <a href="../Proyecto 1/index.html">Back to main page</a>
+        </h2>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../multimedia/zeusx.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Zeus X RTA </h5>
+                  <p>Geekvape</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../multimedia/0e3173cdc071762f25c2962179ab6eb9c7c6054a.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Fatality RTA</h5>
+                  <p>QP Design</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../multimedia/fat.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>FAT Rabbit RTA</h5>
+                  <p>HellVape</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
