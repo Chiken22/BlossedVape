@@ -1,0 +1,104 @@
+.body {
+    background-color: $colorPrincipal;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='149' height='149' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%2300b6dd' fill-opacity='0.42'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.42'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    text-decoration: underline;
+    grid-area: titulo1;
+}
+
+.login__titulo{
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    font-size: small;
+}
+.login {
+    text-align-last: end;
+}
+.form-control{
+width: 100%;
+}
+.legend {
+    grid-area: legend;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(168, 103, 241);
+    padding-left: 17%;
+    margin: 50px;
+}
+a:hover{
+   color: lightblue; 
+}
+.img {
+    align-self: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 700px;
+    height: 600px;
+    border: groove rgb(168, 103, 241) 25px;
+    padding: 25px;
+    margin: 25px auto;
+    overflow: auto;
+    object-fit: contain;
+}
+.indeximage{
+    width: 600px;
+    height: 500px;
+    filter: grayscale(100%);
+    transition: all 2s;
+        &:hover{
+            filter: none;
+        }
+}
+
+.webs {
+    color: black;
+    text-align: center;
+    background-color: rgb(168, 103, 241);
+    font-size: 18px;
+    height: 25px;
+    transition: all 2s;
+    &:hover{
+        height: 50px;
+    }
+}
+
+.disclaimer__parrafo {
+    background-color: red;
+    font-size: 20px;
+    grid-area: footer;
+    text-align: center;
+    flex: auto;
+}
+@media screen and (max-width:1024px){
+    .body{ grid-template-columns: 1fr;}
+.form-control{
+    width: 50%;
+}
+    .webs {
+        color: black;
+        text-align: center;
+        background-color: rgb(168, 103, 241);
+        font-size: 12px;
+        height: 20px;
+        transition: all 2s;
+            &:hover{
+                height: 50px;
+            }
+    }
+    
+    .login {
+        text-align-last: left;
+        justify-content: start;
+        grid-area: titulo2;
+    }
+    .form-control{
+        width: 25%;
+
+    }
+}
