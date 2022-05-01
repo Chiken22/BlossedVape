@@ -37,8 +37,8 @@ a:hover {
   align-self: center;
   text-align: center;
   box-sizing: border-box;
-  width: 700px;
   height: 600px;
+  width: 700px;
   border: groove #a867f1 25px;
   padding: 25px;
   margin: 25px auto;
@@ -46,8 +46,8 @@ a:hover {
   object-fit: contain; }
 
 .indeximage {
-  width: 600px;
   height: 500px;
+  width: 600px;
   filter: grayscale(100%);
   transition: all 2s; }
   .indeximage:hover {
@@ -157,7 +157,7 @@ a:hover {
 .back2 {
   grid-area: back2; }
 
-.disclaimer2 {
+.disclaimer2, .disclaimer3 {
   background-color: red;
   font-size: 35px;
   grid-area: footer2;
@@ -198,11 +198,6 @@ p {
   height: 700px; }
   .fat:hover {
     filter: none; }
-
-.disclaimer3 {
-  background-color: red;
-  font-size: 35px;
-  text-align: center; }
 
 .carousel {
   display: inline-flex;
@@ -315,7 +310,7 @@ p {
   text-align: center;
   font-size: 25px; }
 
-.disclaimer {
+.disclaimer5 {
   grid-area: disclaimer5;
   background-color: red;
   font-size: 35px; }
